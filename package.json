@@ -1,7 +1,7 @@
 {
     "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
     "name": "koa-in-browser",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Koa application framework that runs inside the browser.",
     "repository": {
         "type": "git",
@@ -34,6 +34,6 @@
     },
     "devDependencies": {},
     "engines": { "node": ">= 0.11.9" },
-    "keywords": ["serialization"],
+    "keywords": ["koa", "ispmorphicjs"],
     "license" : "GPL-3.0+"
 }
