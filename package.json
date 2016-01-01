@@ -1,11 +1,11 @@
 {
     "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
-    "name": "isotropy-koa",
+    "name": "koa-in-browser",
     "version": "0.1.0",
     "description": "Koa application framework that runs inside the browser.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jeswin/isotropy-koa.git"
+        "url": "https://github.com/jeswin/koa-in-browser.git"
     },
     "main": "lib/application.js",
     "dependencies": {
