@@ -35,6 +35,6 @@
     },
     "devDependencies": {},
     "engines": { "node": ">= 0.11.9" },
-    "keywords": ["koa", "ispmorphicjs"],
+    "keywords": ["koa", "ispmorphic"],
     "license" : "GPL-3.0+"
 }
