@@ -2,7 +2,5 @@
   "esnext": true,
   "multistr": true,
   "noyield": true,
-  "validthis": true,
-  "globals": {
-  }
+  "globals": {}
 }

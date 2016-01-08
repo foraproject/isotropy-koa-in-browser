@@ -3,8 +3,9 @@
     "name": "koa-in-browser",
     "version": "0.1.1",
     "description": "Koa application framework that runs inside the browser.",
+    "main": "dist/application.js",
     "scripts": {
-        "test": "mocha test/test.js"
+        "test": "mocha dist/test/test.js"
     },
     "repository": {
         "type": "git",
@@ -13,17 +14,14 @@
     "main": "lib/application.js",
     "dependencies": {
         "accepts": "^1.2.2",
-        "co": "^4.4.0",
         "composition": "^2.1.1",
         "content-disposition": "~0.5.0",
         "content-type": "^1.0.0",
-        "cookies": "~0.5.0",
         "delegates": "0.1.0",
         "destroy": "^1.0.3",
         "error-inject": "~1.0.0",
         "escape-html": "~1.0.1",
         "fresh": "~0.2.4",
-        "http-assert": "^1.1.0",
         "http-errors": "^1.2.8",
         "koa-compose": "^2.3.0",
         "koa-is-json": "^1.0.0",
@@ -37,6 +35,13 @@
         "isotropy-request-response-in-browser": "*"
     },
     "devDependencies": {
+        "jsdom": "*",
+        "babel-polyfill": "*",
+        "babel-preset-es2015": "*",
+        "babel-preset-react": "*",
+        "babel-preset-stage-2": "*",
+        "babel-plugin-transform-class-properties": "*",
+        "babel-relay-plugin-loader": "*",
         "mocha": "*",
         "should": "*"
     },
