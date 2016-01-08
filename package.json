@@ -1,8 +1,11 @@
 {
     "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
     "name": "koa-in-browser",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Koa application framework that runs inside the browser.",
+    "scripts": {
+        "test": "mocha test/test.js"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/jeswin/koa-in-browser.git"
@@ -33,7 +36,10 @@
         "vary": "^1.0.0",
         "isotropy-request-response-in-browser": "*"
     },
-    "devDependencies": {},
+    "devDependencies": {
+        "mocha": "*",
+        "should": "*"
+    },
     "engines": { "node": ">= 0.11.9" },
     "keywords": ["koa", "ispmorphic"],
     "license" : "GPL-3.0+"
