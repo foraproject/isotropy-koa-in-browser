@@ -35,12 +35,12 @@ class Cookies {
 }
 
 class Cookie {
-    path: "/"
-    expires: undefined
-    domain: undefined
-    httpOnly: true
-    secure: false
-    overwrite: false
+    path = "/";
+    expires = undefined;
+    domain = undefined;
+    httpOnly = true;
+    secure = false;
+    overwrite = false;
 
     constructor(name, value, attrs) {
         if (!value) {

@@ -4,14 +4,14 @@ const NativeRequest = libReqRes.Request;
 const NativeResponse = libReqRes.Response;
 
 class Dispatcher {
-    const servers = [];
+    servers = [];
 
     add(host, port, server) {
-        servers.push({ host, port, server});
+        this.servers.push({ host, port, server});
     }
 
     get(host, port) {
-        const server = server.filter(s => s.host === host && s.port === port);
+        const server = this.servers.filter(s => s.host === host && s.port === port);
         return server.length ? server[0] : null;
     }
 }
